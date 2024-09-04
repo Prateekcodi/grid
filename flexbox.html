@@ -37,9 +37,29 @@
         font-family: sans-serif;
         background-color: #ddd;
         font-size: 40px;
-        margin: 40px;
+        
+        justify-content: flex-start;
+        gap: 20px;
+
 
         /* FLEXBOX */
+        display: flex;
+        align-items: center;
+      }
+      .el{
+        flex-basis: 100px;
+        
+      }
+      .el--1{
+       align-self: flex-start;
+        
+      }
+      .el--4{
+        align-self: flex-start;
+      }
+      .el--6{
+        order: 1;
+        
       }
     </style>
   </head>
